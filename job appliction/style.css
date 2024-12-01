@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+.apply_box{
+    max-width: 600px;
+    padding: 20px;
+    background-color:rgb(255, 255, 255);
+    margin:0 auto ;
+    margin: top 50px; 
+    box-shadow: 4px 3px 5px rgba(1,1,1, 0.1);
+    border-radius: 10px;
+
+}
+.title_small{
+    font-size: 20px;
+}
+
+.form_container{
+    margin-top: 50px ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,nimmax(10px, 1fr));
+    gap: 20px;
+}
+
+.form_control{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 10px;
+}
+
+input,select,textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+input:focus{
+    outline-color: rgb(216, 27, 30);
+}
+
+.button_container{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: brown;
+    border: transparent solid 20px;
+    padding: 5px 5px;
+    color:whitesmoke;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ccc;
+    border: 2px solid red;
+    color: black;
+
+}
+
+
+
+
